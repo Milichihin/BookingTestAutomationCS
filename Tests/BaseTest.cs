@@ -15,7 +15,7 @@ namespace Booking
         [OneTimeTearDown]
         public void TearDown()
         {
-            DriverHolder.Driver.Quit();
+            //DriverHolder.Driver.Quit();
         }
     }
 }

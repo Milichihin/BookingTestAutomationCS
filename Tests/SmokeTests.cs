@@ -16,6 +16,8 @@ namespace Booking.Tests
 
             MainPage.SearchButton.Click();
 
+            ModalContext.TryToCloseModal();
+
             Assert.Multiple(() =>
             {
                 Assert.IsTrue(
