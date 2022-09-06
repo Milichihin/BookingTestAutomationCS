@@ -19,7 +19,5 @@ namespace Booking
         {
             Driver.Navigate().GoToUrl("https://www.booking.com/index.en-gb.html");
         }
-
-        //public static Actions actions = new Actions(Driver);
     }
 }
